@@ -6,6 +6,7 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import SinglePage from './routes/singlePage/singlePage';
+import ProfilePage from './routes/profilePage/profilepage';
 
 function App() {
   const router = createBrowserRouter([
@@ -24,20 +25,16 @@ function App() {
         {
           path: '/:id',
           element: <SinglePage/>,
-        }
+        },
+        {
+          path: '/profile',
+          element: <ProfilePage/>,
+        },
       ]
     }
   ]);
 
   return (
-    //<div className='layout'>
-    //  <div className="navbar">
-    //    <Navbar/>
-    //  </div>
-    //  <div className="content">
-    //    <HomePage/>
-    //  </div>
-    //</div>
     <RouterProvider router={router}/>
   );
 }

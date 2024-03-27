@@ -7,8 +7,8 @@ export const listData = [
       bathRooms: 1,
       price: 1000,
       address: '456 Park Avenu, London',
-      latitude: 51.5074,
-      longitude: -0.1278,
+      latitude: 54.5074,
+      longitude: -2.5978,
     },
     {
         id: 2,
@@ -18,7 +18,7 @@ export const listData = [
         bathRooms: 2,
         price: 1500,
         address: '789 Oxford Street, London',
-        latitude: 52.4862,
+        latitude: 53.4862,
         longitude: -1.8904,
       },
       {
@@ -29,8 +29,8 @@ export const listData = [
         bathRooms: 1,
         price: 800,
         address: '101 Baker Street, London',
-        latitude: 51.5074,
-        longitude: -0.1278,
+        latitude: 52.5074,
+        longitude: 1.1278,
       },
       {
         id: 4,
@@ -41,7 +41,7 @@ export const listData = [
         price: 1600,
         address: '10-A Green Street, London',
         latitude: 52.0038,
-        longitude: -0.1560,
+        longitude: -3.1560,
       },
       {
         id: 5,
@@ -52,7 +52,7 @@ export const listData = [
         price: 2000,
         address: '5 Bridge Street, London',
         latitude: 52.5639,
-        longitude: -0.2061,
+        longitude: -1.2061,
       },
       {
         id: 6,
@@ -63,7 +63,7 @@ export const listData = [
         price: 3500,
         address: '11-B Capital Street, London',
         latitude: 51.3451,
-        longitude: -0.1089,
+        longitude: -2.5089,
       },
       {
         id: 7,
@@ -73,8 +73,8 @@ export const listData = [
         bathRooms: 2,
         price: 2500,
         address: '89 Corner Street, London',
-        latitude: 53.2390,
-        longitude: -0.3450,
+        latitude: 51.2390,
+        longitude: -1.0050,
       },
       {
         id: 8,
@@ -85,6 +85,36 @@ export const listData = [
         price: 1500,
         address: '32 Amazing Street, London',
         latitude: 51.5612,
-        longitude: -0.0025,
+        longitude: -1.4525,
       },
 ]
+
+export const singlePostData = {
+  id: 1,
+  title: 'Beautiful Apartment',
+  price: 1200,
+  images: [
+    'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrf_EEWvUJORr_cGw1lSLGiuiwG298yoRn9g&usqp=CAU',
+    'https://i.pinimg.com/236x/23/d1/01/23d101fb0acfa2aed13d693df1bb9761.jpg',
+    'https://i.pinimg.com/236x/8c/5f/a9/8c5fa984b66539420184ce17cfa5973a.jpg',
+    'https://i.pinimg.com/236x/45/d8/34/45d834e1370608b8651efd82060c4450.jpg',
+  ],
+  bedRooms: 2,
+  bathroom: 1,
+  size: 861,
+  latitude: 51.5074,
+  longitude: -0.1278,
+  city: 'London',
+  address: '12-A Broadway Street',
+  school: '300m away',
+  bus: '100m',
+  restaraunt: '50m',
+  description:
+    'Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, accusantium tempore odit sapiente nesciunt natus illo veritatis repellat, nam, fugit doloribus numquam quo magnam. Veritatis temporibus possimus rem molestias ullam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, accusantium tempore odit sapiente nesciunt natus illo veritatis repellat, nam, fugit doloribus numquam quo magnam. Veritatis temporibus possimus rem molestias ullam.',
+};
+
+export const userData = {
+  id: 1,
+  name: 'Bill Alis',
+  img: 'https://images.unsplash.com/photo-1568602471122-7832951cc4c5?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHVzZXJ8ZW58MHx8MHx8fDA%3D',
+};
